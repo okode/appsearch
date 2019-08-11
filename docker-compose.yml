@@ -8,7 +8,7 @@ services:
     - "discovery.type=single-node"
     - "cluster.name=app-search-docker-cluster"
     - "bootstrap.memory_lock=true"
-    - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    - "ES_JAVA_OPTS=-Xms512m -Xmx2048m"
     ulimits:
       memlock:
         soft: -1
@@ -19,6 +19,6 @@ services:
     environment:
     - "elasticsearch.host=http://elasticsearch:9200"
     - "allow_es_settings_modification=true"
-    - "JAVA_OPTS=-Xmx512m"
+    - "JAVA_OPTS=-Xmx2048m"
     ports:
     - 3002:3002
