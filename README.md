@@ -8,11 +8,11 @@ Simple meals search app.
 * cURL
 * jq
 
-## Scraping Data
+## Preparing sample data
 
 Retrieve data from TheMealDB (https://www.themealdb.com/api.php)
 
 ```
-$ ./scrape.sh
+$ ./download-data.sh
 ```
 
