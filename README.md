@@ -30,6 +30,8 @@ Start App Search service:
 $ docker-compose up -d appsearch
 ```
 
+Open Elastic App Search Dashboard: http://localhost:3002
+
 ## Monitoring
 
 Monitor logs from Docker Compose:
